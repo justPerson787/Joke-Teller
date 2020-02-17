@@ -20,7 +20,6 @@ function tellMe(joke) {
 /*audioElement.src = t.responseText;
 audioElement.play()*/
 
-
 //Get Jokes from Joke API
 
 async function getJoke() {
@@ -36,9 +35,10 @@ async function getJoke() {
         }
         tellMe(joke);
     } catch(error) {
-        //Catch Errors Here
-        
+        //Catch Errors Here        
     }
 }
-getJoke();
 
+// Event Listeners
+button.addEventListener('click', getJoke);
+audioElement.addEventListener('ended', toggleButton);
