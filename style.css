@@ -30,7 +30,7 @@ button {
     font-size: 20px;
     color: white;
     background: #ff3482;
-    border: none;
+    border: 1px solid white;
     border-radius: 5px;
     box-shadow: 2px 2px 20px 10px rgba(0, 0, 0, 0.2);
 }
