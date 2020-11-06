@@ -1,4 +1,4 @@
-# Random Quote Generator
+# Automatic Joke Teller
 
 Live demo:  https://justperson787.github.io/Joke-Teller/
 
